@@ -1,0 +1,130 @@
+* {
+	  vertical-align: baseline;
+	  font-weight: inherit;
+	  font-style: inherit;
+	  font-family: Arial, serif;
+	  font-size: 100%;
+	  outline: 0;
+	  margin: 0 auto;
+	  }
+	  
+  @media screen and (max-width: 700px) {
+	body {
+	  -webkit-text-size-adjust: none;
+	}
+  }
+  
+  @media screen and (max-width: 400px) {
+	body {
+	  -webkit-text-size-adjust: none;
+	}
+  }
+  
+  #wrapper {
+		margin: 0 auto;
+		width: 750px;
+		display: flex;
+		 }
+		 #left-container{
+		 	font-size: 13px;
+		 	color: gray;
+		 	height: auto;
+		 	text-decoration: none;
+		 	display: inline-block;
+		 	padding-right: 40px;
+		 	vertical-align:top;
+  			border-right: 2px solid #e853fc;
+  			text-align: right;
+  			width: 230px;
+		 }
+			 ul {
+			 	list-style-type: none;
+			 }
+			 li {
+			 	margin-bottom: 50px;
+			 	line-height: 35px;
+			 }
+			 #left {
+			 	margin-top: 150px;
+			 	margin-bottom: 50px;
+			 }
+			 #currency,#acronym,#creator{
+			 	margin-bottom: 50px;
+			 }
+			 #description {
+			 	margin-bottom: 140px;
+			 }
+			 #a1{
+			 	text-decoration: none;
+			 	color: #ad00c2;
+			 	font-weight: 600;
+			 }
+			 #a1:hover {
+				transition-duration: .5s;
+				color: #e853fc;
+			 }
+		 #right-container{
+		 	color: gray;
+		 	display: inline-block;
+		 	vertical-align: top;
+		    margin-top: 60px;
+		    text-align: left;
+		    width: 520px;
+		    margin-bottom: 80px;
+		 }
+		 	#logo{
+				 color: #ad00c2;
+				 text-align: center;
+				 letter-spacing: 6px;
+				 font-size: 30px;
+				 font-weight: 600;
+				 margin-left: 40px;
+				 text-decoration: none;
+			 }
+			 #logo:hover {
+				color: #e853fc;
+				transition-duration: .5s;
+			 }
+			 #right {
+			 	margin-top: 50px;
+			 	font-size: 21px;
+			 	text-decoration: none;
+			 }
+			 #a2{
+			 	font-size: 15px;
+			 	font-weight: 600;
+			 	color: gray;
+			 	opacity: .7;
+			 	text-decoration: none;
+			 	margin-left: 40px;
+			 }
+			 #a2:hover{
+			 	transition-duration: .5s;
+				opacity: .4;
+			 }
+
+/* Mobile UI Below  */
+
+  @media screen and (max-width: 950px) {
+	body {
+	  -webkit-text-size-adjust: none;
+	}
+	#wrapper {
+		width: 400px;
+	}
+		#logo, #a2 {
+			margin-left: 10px;
+		}
+		#right {
+			margin-left: -30px;
+		}
+		 #left-container{
+  			width: 120px;
+  			padding-right: 10px;
+		 }
+		 #right-container{
+		    width: 300px;
+		 }		 
+		   
+    }
+

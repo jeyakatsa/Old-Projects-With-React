@@ -1,0 +1,132 @@
+* {
+	  vertical-align: baseline;
+	  font-weight: inherit;
+	  font-style: inherit;
+	  font-family: Arial, serif;
+	  font-size: 100%;
+	  outline: 0;
+	  margin: 0 auto;
+	  }
+	  
+  @media screen and (max-width: 700px) {
+	body {
+	  -webkit-text-size-adjust: none;
+	}
+  }
+  
+  @media screen and (max-width: 400px) {
+	body {
+	  -webkit-text-size-adjust: none;
+	}
+  }
+  
+  #wrapper {
+		margin: 0 auto;
+		width: 750px;
+		display: flex;
+		 }
+		 #left-container{
+		 	font-size: 13px;
+		 	color: gray;
+		 	height: auto;
+		 	text-decoration: none;
+		 	display: inline-block;
+		 	padding-right: 40px;
+		 	vertical-align:top;
+  			border-right: 2px solid #e853fc;
+  			text-align: right;
+		 }
+			 ul {
+			 	list-style-type: none;
+			 }
+			 #about {
+			 	margin-top: 160px;
+			 	margin-bottom: 145px;
+			 }
+		 #right-container{
+		 	color: gray;
+		 	display: inline-block;
+		 	vertical-align: top;
+		    margin-top: 60px;
+		    text-align: left;
+		    width: 600px;
+		    margin-bottom: 80px;
+		 }
+		 	#logo{
+				 color: #ad00c2;
+				 text-align: center;
+				 letter-spacing: 6px;
+				 font-size: 30px;
+				 font-weight: 600;
+				 margin-left: 80px;
+				 text-decoration: none;
+			 }
+			 #logo:hover {
+				color: #e853fc;
+				transition-duration: .5s;
+			 }
+			 #right {
+			 	margin-top: 50px;
+			 	font-size: 17px;
+			 	text-decoration: none;
+			 }
+			 #description, #techstack1, #techstack2,
+			 #techstack3, #techstack4 {
+			 	line-height: 35px;
+			 }
+			 #team {
+			 	margin-top: 65px;
+			 	margin-bottom: 40px;
+			 }
+			 #team-2, #team-3 {
+			 	margin-bottom: 40px;
+			 }
+			 #p,#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9,
+			 #p10,#p11 {
+			 	margin-bottom: 8px;
+			 }
+			 #a1,#a2,#a3,#a4,#a5,#a6,#a7,#a8{
+			 	text-decoration: none;
+			 	font-weight: 600;
+			 	color: gray;
+			 }
+			 #a1:hover,#a2:hover,#a3:hover,#a4:hover,
+			 #a5:hover,#a6:hover,#a7:hover,#a8:hover {
+				transition-duration: .5s;
+				opacity: .4;
+			 }
+			 
+/* Mobile UI Below  */
+
+  @media screen and (max-width: 950px) {
+	body {
+	  -webkit-text-size-adjust: none;
+	}
+	#wrapper {
+		width: 400px;
+	}
+	
+		#logo {
+			margin-left: 10px;
+		}
+		#right {
+			margin-left: -30px;
+			font-size: 13px;
+		}
+		 #left-container{
+  			width: 120px;
+  			padding-right: 10px;
+		 }
+		 #right-container{
+		    width: 300px;
+		 }	
+		 #about {
+		 	margin-bottom: 140px;
+		 }
+		 	#description, #techstack1, #techstack2,
+			 #techstack3, #techstack4 {
+			 	line-height: 25px;
+			 }		 	 
+		   
+    }			 
+

@@ -1,0 +1,118 @@
+* {
+	  vertical-align: baseline;
+	  font-weight: inherit;
+	  font-style: inherit;
+	  font-family: Arial, serif;
+	  font-size: 100%;
+	  outline: 0;
+	  margin: 0 auto;
+	  }
+	  
+  @media screen and (max-width: 700px) {
+	body {
+	  -webkit-text-size-adjust: none;
+	}
+  }
+  
+  @media screen and (max-width: 400px) {
+	body {
+	  -webkit-text-size-adjust: none;
+	}
+  }
+  
+  #wrapper {
+		width: 1000px;
+		margin: 0 auto;
+		margin-top: 150px;
+		 }
+		 #logo{
+			 color: #ad00c2;
+			 text-align: center;
+			 letter-spacing: 12px;
+			 font-size: 50px;
+			 font-weight: 600;
+			 margin-bottom: 20px;
+		 }
+		 #heading{
+			letter-spacing: 3px;
+			font-size: 17px;
+			text-align: center;
+			color: gray;
+			font-weight: 500;
+			margin-bottom: 40px;
+		 }
+		 #create{
+			display: flex;
+			justify-content: center;
+			color: white;
+			font-size: 22px;
+			margin: 0 auto;
+			 width: 300px;
+			 height: 70px;
+			 padding: 15px;
+			 border-radius: 50px;
+			 border: none;
+			 background-color: #ad00c2;
+			 box-shadow: 0px 13px 30px 0px #ad00c2;
+			 margin-bottom: 30px;
+			 margin-top: 10px;
+		 }
+		 #create:hover{
+			opacity: 0.4;
+			transition-duration: .5s;
+			box-shadow: none;
+		   }
+		#horizontal-line{
+			background-color: #e853fc;
+			opacity: .5;
+			height: 1px;
+			margin-bottom: 30px;
+		}   
+		#table{
+			width: 800px;
+			text-align: right;
+		   }
+		th{
+			color: gray;
+			letter-spacing: 3px;
+			font-size: 15px;
+			padding-bottom: 30px;
+			padding-left: 10px;
+		   } 
+		#tr {
+			margin-top: 20px;
+			background-color: #ad00c2;
+			box-shadow: 0px 13px 30px 0px #ad00c2;
+			border: none;
+			font-size: 21px;
+			height: 80px;
+		}
+		td {
+			padding-top: 25px;
+		    padding-right: 10px;
+		}
+		#view {
+			text-decoration: none; 
+			color: white;
+		}
+		#tr:hover {
+			transition-duration: .5s;
+			background-color: #e853fc;
+			box-shadow: none;
+		}
+		#view:hover{
+			transition-duration: .5s;
+			opacity: .5;
+		}
+		#delete {
+			font-size: 15px;
+			color: white;
+			opacity: .7;
+			text-decoration: none; 
+			margin-right: 50px; 
+			margin-left: 20px;
+		}
+		#delete:hover{
+			opacity: .4;
+			transition-duration: .5s;
+		}

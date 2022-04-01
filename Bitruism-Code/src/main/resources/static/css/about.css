@@ -1,0 +1,109 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+    font-style: inherit;
+    font-family: Helvetica, serif;
+	font-size: 100%;
+	outline: 0;
+    margin: 0 auto;
+	}
+	
+@media screen and (max-width: 700px) {
+  body {
+    -webkit-text-size-adjust: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    -webkit-text-size-adjust: none;
+  }
+}
+
+#wrapper {
+	  margin: 0 auto;
+	  margin-top: 50px;
+	  margin-bottom: 50px;
+	  width: 500px;
+       }
+       	   h4 {
+       	      text-align: center;
+       	   }
+       	   #logo {
+       	      margin: 0 auto;
+       	      font-size: 40px;
+       	      color: gray;
+       	      text-decoration: none;
+       	      font-style: bold;
+       	      font-weight: 800;
+       	   }
+       	   #logo:hover{
+           		color: #dba100;
+			    transition-duration: .5s;
+           }
+           #container {
+           	  width: 500px;
+           	  margin: 0 auto;      
+           }
+       	   p{
+       	      text-align:center;
+       	      margin: 0 auto;
+       	      font-size: 20px;
+       	      font-family: Arial;
+       	      color: gray;
+       	   }
+           hr{
+           		margin-top: 30px;
+           		width: 500px;
+           		background-color: #dba100;
+            	height: 3px;
+           }
+           
+           #submitcharity{
+               color: gray; 
+               font-size: 17px;
+               text-decoration: none;
+               font-style: bold;
+       	       font-weight: 800;
+           }
+           #submitcharity:hover{
+			    color: #dba100; 
+			    transition-duration: .5s;
+           }
+           #donatebitcoin{
+               color: #dba100;
+               font-size: 25px;
+               margin-top: 40px;
+               	text-decoration: none;
+               	font-style: bold;
+       	        font-weight: 800;
+           }
+           #donatebitcoin:hover{
+			    opacity: 0.5;
+			    transition-duration: .5s;
+           }
+  @media screen and (max-width: 700px) {
+	body {
+	  -webkit-text-size-adjust: none;
+	}
+	#wrapper {
+		width: 400px;
+	}
+	      #container {
+           	  width: 320px;
+           	  padding-left: 0px;     	  
+           }
+       	   p{
+       	      font-size: 15px;
+       	   }  
+           hr{
+           		width: 300px;
+           }       	            
+           
+          #submitcharity{
+               font-size: 15px;
+           }  
+           #donatebitcoin{
+           		font-size: 17px;
+           } 
+  }             

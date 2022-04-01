@@ -1,0 +1,205 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+    font-style: inherit;
+    font-family: Helvetica, serif;
+	font-size: 100%;
+	outline: 0;
+    margin: 0 auto;
+	}
+	
+
+#wrapper {
+	  margin: 0 auto;
+	  margin-top: 50px;
+	  width: 600px;
+	  margin-bottom: 30px;
+       }
+       	   h4 {
+       	      text-align: center;
+       	   }
+       	   #logo {
+       	      margin: 0 auto;
+       	      font-size: 40px;
+       	      color: gray;
+       	      text-decoration: none;
+       	      font-style: bold;
+       	      font-weight: 800;       	      
+       	   }
+       	   #logo:hover{
+           		color: #dba100;
+			    transition-duration: .5s;
+           }
+       	   #header{
+       	      text-align: center;
+       	      margin: 0 auto;
+       	      font-size: 15px;
+       	      font-family: Arial;
+       	      letter-spacing: 10px;
+       	      color: gray;
+       	      margin-left: 5px;
+       	      font-weight: 600;
+       	   }
+       	   #container {
+           	  width: 600px;
+           	  margin: 0 auto;      
+           	  margin-bottom: 10px;  
+           	  margin-top: 20px;    
+       	      padding-left: 25px;       	  
+           }
+           input{
+			  display: flex;
+			  justify-content: center;
+			  color: white;
+			  margin: 0 auto;
+               width: 550px;
+               height: 100px;
+               padding: 25px;
+               border-radius: 30px;
+               border: none;
+               margin-bottom: 10px;
+           }
+           #savethechildren{
+               background-color: #b00000;
+              font-family: Arial;
+               font-size: 20px;
+               font-weight: 600;
+               box-shadow: 0px 7px 20px 0px #b00000;
+           }
+           #unitedway{
+               background-color: #21349e;
+               font-family: Arial;
+               font-size: 20px;
+               font-weight: 600;
+               box-shadow: 0px 7px 20px 0px #21349e;
+           }
+           #waterproject{
+               background-color: #3d72a1;
+               font-family: Arial;
+               font-size: 20px;
+               font-weight: 600;
+               box-shadow: 0px 7px 20px 0px #3d72a1;
+           }
+           #directrelief{
+               background-color: #ad4800;
+               font-family: Arial;
+               font-size: 20px;
+               font-weight: 600;
+               box-shadow: 0px 7px 20px 0px #ad4800;
+           }
+           #humanrights{
+               background-color: #d10069;
+               font-family: Arial;
+               font-size: 20px;
+               font-weight: 600;
+               box-shadow: 0px 7px 20px 0px #d10069;
+           }
+           #conservation{
+               background-color: #00a2cf;
+               font-family: Arial;
+               font-size: 20px;
+               font-weight: 600;
+               box-shadow: 0px 7px 20px 0px #00a2cf;
+           }
+           #crohn{
+               background-color: #000569;
+               font-family: Arial;
+               font-size: 20px;
+               font-weight: 600;
+               box-shadow: 0px 7px 20px 0px #000569;
+           }
+           #forgottenanimals{
+               background-color: #946500;
+               font-family: Arial;
+               font-size: 20px;
+               font-weight: 600;
+               box-shadow: 0px 7px 20px 0px #946500;
+           }
+          #savethechildren:hover,
+          #unitedway:hover,
+          #waterproject:hover,
+          #directrelief:hover,
+          #humanrights:hover,
+          #conservation:hover,
+          #crohn:hover,
+          #forgottenanimals:hover{
+			    transition-duration: .5s;
+			    box-shadow: none;
+           }
+           input:hover{
+			    opacity: 0.4;
+			    transition-duration: .5s;
+			    box-shadow: none;
+           }
+           hr{
+           		width: 500px;
+           		background-color: #dba100;
+            	height: 3px;
+           }
+           p{
+       	      text-align: center;
+       	   }
+       	   #submitc{
+       	   		padding-top: 20px;
+       	   }
+           #submitcharity{
+               color: #dba100;
+               font-size: 25px;
+               font-style: bold;
+       	       font-weight: 800;
+               	text-decoration: none; 
+           }
+           #submitcharity:hover{
+			    opacity: 0.5;
+			    transition-duration: .5s;
+           }
+           #abt{
+           		padding-top: 5px;
+           }
+           #about {
+           		color: #dba100;
+           		font-size: 18px;
+			    text-decoration: none;
+			    font-style: bold;
+       	        font-weight: 800; 
+			  
+           }
+           #about:hover{
+			    opacity: 0.5;
+			    transition-duration: .5s;
+           }
+  @media screen and (max-width: 700px) {
+	body {
+	  -webkit-text-size-adjust: none;
+	}
+	#wrapper {
+		width: 400px;
+	}
+	      #container {
+           	  width: 350px;
+           	  padding-left: 0px;     	  
+           }
+       	   #header{
+       	      font-size: 12px;
+       	      letter-spacing: 5px;
+       	   }           
+          #savethechildren,
+          #unitedway,
+          #waterproject,
+          #directrelief,
+          #humanrights,
+          #conservation,
+          #crohn,
+          #forgottenanimals{
+			    width: 350px;
+			    font-size: 15px;
+           }
+           hr{
+           		width: 300px;
+           }   
+           
+          #submitcharity{
+               font-size: 20px;
+           }
+                   
+  }           
